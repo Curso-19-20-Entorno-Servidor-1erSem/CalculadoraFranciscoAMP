@@ -12,4 +12,12 @@ package es.albarregas.beans;
  */
 public class calculator {
 
+package es.albarregas.beans;
+
+/**
+ *
+ * @author franciscoantonio
+ */
+public class calculator {
+    
 }

@@ -12,4 +12,12 @@ package es.albarregas.exceptions;
  */
 public class DivisionPorCero {
 
+package es.albarregas.exceptions;
+
+/**
+ *
+ * @author franciscoantonio
+ */
+public class DivisionPorCero {
+    
 }
