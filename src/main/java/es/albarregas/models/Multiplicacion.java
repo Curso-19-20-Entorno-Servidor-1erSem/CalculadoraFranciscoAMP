@@ -11,5 +11,7 @@ package es.albarregas.models;
  * @author franciscoantonio
  */
 public class Multiplicacion {
-
+    public int Multiplicar(int operando1, int operando2) {
+        return operando1*operando2;
+    }
 }

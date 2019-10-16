@@ -9,6 +9,8 @@ package es.albarregas.exceptions;
  *
  * @author Francisco_Antonio
  */
-public class DivisionPorCero {
-    
+public class ExcepcionDividirPorCero extends Exception{
+    public ExcepcionDividirPorCero(String mensajeError) {
+        super(mensajeError);
+    }
 }

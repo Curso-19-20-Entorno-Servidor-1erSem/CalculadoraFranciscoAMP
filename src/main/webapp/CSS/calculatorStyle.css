@@ -8,3 +8,117 @@ and open the template in the editor.
     Author     : franciscoantonio
 */
 
+*{
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: darkgray;
+    font-family: classicRobot;
+    color: #B5FF0A;
+    text-align:center;
+    margin:0 auto;
+    font-size: 30px;
+    padding: 10%;
+    padding-top: 1%;
+}
+
+@font-face {
+    font-family: classicRobot;
+    src: url(classicRobot.ttf);
+}
+
+.right{
+    float: right;
+    width: 60%;
+    height: auto;
+}
+
+h1{
+    font-size: 50px;
+}
+
+a { 
+    color: #ffffff; 
+    text-decoration: none;
+}
+
+fieldset{
+    border:10px groove #B5FF0A;
+    padding: 20px;
+    margin: auto;
+}
+
+#introDatos{
+    margin-bottom: 10%;
+}
+
+#introDatos label{
+    display: block;
+    margin: .5em 0 0 0;
+}
+
+input:focus {
+  border: 6px solid #B5FF0A;
+  background: #D5E0E3;
+}
+
+#entrada{
+    text-align: right;
+}
+
+
+#calculatorIMG{
+    /*width: 30%;*/
+    height: auto;
+    float: left;
+    margin-top: 12%;
+}
+
+button {
+  border-radius: 0px;
+  background-color: #D5E0E3;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#operandos{
+    margin-right: 3%;
+}
+
+#firulais{
+    color: white;
+    font-size: 140px;
+}

@@ -6,10 +6,15 @@
 
 package es.albarregas.models;
 
+import es.albarregas.exceptions.ExcepcionDividirPorCero;
+import java.util.*;
+
 /**
  *
  * @author franciscoantonio
  */
 public class Division {
-
+    public int Dividir(int operando1, int operando2){
+        return operando1/operando2;
+    }
 }
