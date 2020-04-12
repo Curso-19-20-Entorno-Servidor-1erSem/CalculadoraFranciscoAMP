@@ -10,5 +10,7 @@ package es.albarregas.models;
  * @author franciscoantonio
  */
 public class Resta {
-    
+    public int Restar(int operando1, int operando2) {
+        return operando1-operando2;
+    }
 }
